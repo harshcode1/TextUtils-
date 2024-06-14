@@ -46,6 +46,7 @@ function App() {
       showAlert("dark Mode has been Enabled", "SUCCESS")
     }
     document.body.classList.add('bg-'+cls)
+    console.log("Congrats Your First Clone");
   }
 
 
